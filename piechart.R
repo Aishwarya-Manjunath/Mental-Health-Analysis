@@ -1,4 +1,3 @@
-#reading from csv file
 df<-read.csv('survey.csv',stringsAsFactors = FALSE)
 #to check if country has NA
 any(is.na(df$Country))
